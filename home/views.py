@@ -7,6 +7,8 @@ from django.contrib.auth.views import LoginView, LogoutView
 from django.shortcuts import render
 from django.shortcuts import redirect
 
+
+
 class LogoutInterfaceView(LogoutView):
     template_name = 'home/logout.html'
 class LoginInterfaceView(LoginView):
